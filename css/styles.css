@@ -1,0 +1,159 @@
+/**
+  |============================
+  |          STUDIO
+  |============================
+*/
+:root {
+  --text-color: #434455;
+  --dark-color: #2e2f42;
+  --white-color: #ffffff;
+  --cloud-color: #f4f4fd;
+  --cornflower-accent: #e7e9fc;
+  --primary-brand: #4d5ae5;
+  --pressed-state-color: #404bbf;
+}
+/* BASE STYLES */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* NAVIGATION */
+
+.site-nvg .link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.site-nvg .link:hover,
+.link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* BUTTON */
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+/* CONTACTS */
+.address {
+  font-style: normal;
+}
+.address .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.address .link:hover,
+.link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* HERO SECTION */
+.main-hero {
+  background: var(--dark-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.main-hero .button {
+  color: var(--white-color);
+  background-color: var(--primary-brand);
+}
+.main-hero .button:hover,
+.button:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* ABOUT SECTION */
+.sub-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+/* LOGO STYLES */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo-dark {
+  color: var(--dark-color);
+}
+.logo-footer {
+  color: var(--cloud-color);
+}
+
+/* FOOTER SECTION */
+.footer-text {
+  color: var(--cloud-color);
+}
+.main-footer {
+  background: var(--dark-color);
+}
+
+/* SERVICES SECTION */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+/* TEAM SECTION */
+.team-section {
+  background: var(--cloud-color);
+}
+.team-card {
+  background-color: var(--white-color);
+}
+
+/**
+  |============================
+  |          PORTFOLIO
+  |============================
+*/
+.filter-list .button {
+  color: var(--primary-brand);
+  background-color: var(--cloud-color);
+}
+
+.filter-list .button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
+}
