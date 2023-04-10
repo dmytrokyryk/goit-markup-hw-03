@@ -248,6 +248,7 @@ button {
   gap: 24px;
 }
 .benefits-section {
+  padding: 120px 0;
   padding-bottom: 0;
 }
 .benefits-descr {
