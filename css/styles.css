@@ -249,8 +249,6 @@ button {
 }
 .benefits-section {
   padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 .benefits-descr {
   flex-basis: calc((100% - 72px) / 4);
