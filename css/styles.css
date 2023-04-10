@@ -243,9 +243,7 @@ button {
 }
 
 .benefits-section {
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 120px 0;
 }
 
 .benefits-list {
@@ -267,6 +265,9 @@ button {
 }
 
 /* SERVICES SECTION */
+.services-section {
+  padding-bottom: 120px;
+}
 .services-list {
   display: flex;
   flex-wrap: wrap;
