@@ -82,33 +82,22 @@ button {
   |      HEADER STYLES
   |============================
 */
+.header {
+  border-bottom: 1px solid var(--cornflower-accent);
+}
 .container-nav {
   display: flex;
   align-items: center;
 }
-.header .container {
-  display: flex;
-  align-items: center;
-  margin: 0 auto 0 auto;
-}
-.header {
-  border-bottom: 1px solid var(--cornflower-accent);
-}
 .nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
 }
-.nav .list {
-  display: flex;
-  margin-left: 76px;
-  gap: 40px;
-}
+
 .header-nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-left: 76px;
 }
 .header-nav-list .link {
   display: block;
@@ -118,8 +107,30 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-nav-list .link:hover,
+.link:focus {
+  color: var(--pressed-state-color);
+}
 .header-contact {
   margin-right: 40px;
+}
+/* LOGO STYLES */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  margin-right: 76px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo-dark {
+  color: var(--dark-color);
+}
+.logo-footer {
+  color: var(--cloud-color);
 }
 
 /* NAVIGATION */
@@ -237,8 +248,7 @@ button {
   gap: 24px;
 }
 .benefits-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
@@ -268,29 +278,9 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: var(--dark-color);
-}
-
-/* LOGO STYLES */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  margin-right: 76px;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-brand);
-}
-.logo-dark {
-  color: var(--dark-color);
-}
-.logo-footer {
-  color: var(--cloud-color);
 }
 
 /* FOOTER */
